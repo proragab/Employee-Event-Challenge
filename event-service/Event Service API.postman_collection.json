@@ -1,0 +1,30 @@
+{
+	"info": {
+		"_postman_id": "e9bac401-1443-49a9-9ea8-8a01a090f8b9",
+		"name": "Event Service API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "GET api/employeeevent/{employeeUUID}",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8082/api/employeeEvent/d525869b-41b4-43ef-be92-e10991a5fc6b",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8082",
+					"path": [
+						"api",
+						"employeeEvent",
+						"d525869b-41b4-43ef-be92-e10991a5fc6b"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
